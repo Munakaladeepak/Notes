@@ -1,0 +1,22 @@
+# Exam Traps
+
+- `=` assigns; `==` commonly compares with conversion; `===` compares value and type in JavaScript/PHP.
+- Java String content is compared with `.equals()`, not normally `==`.
+- `401` is authentication failure; `403` is authenticated but forbidden.
+- `WHERE` filters rows; `HAVING` filters groups.
+- `IS NULL` checks SQL null; `= NULL` is not correct.
+- Primary key identifies a row; foreign key links tables.
+- `PUT` generally replaces a resource; `PATCH` partially updates it.
+- Stack is LIFO; queue is FIFO.
+- Props are React inputs; state is changeable component data.
+- Node.js is a runtime, not a programming language.
+- React is a frontend UI library, not a database or backend.
+- MongoDB is flexible-schema, not structure-free.
+- More database indexes can improve reads but hurt writes.
+- `git pull` receives remote changes; `git push` sends local commits.
+- Authentication asks who you are; authorization asks what you may do.
+- Client-side validation can be bypassed; validate on the server too.
+- Constructors do not have a return type in Java.
+- `final` variable, method, and class have different effects.
+- Unit tests isolate small units; integration tests connect modules.
+- Vertical scaling makes one machine bigger; horizontal scaling adds instances.
